@@ -1,20 +1,10 @@
-.features ul {
+.features-list {
   display: flex;
   gap: 24px;
 }
 
-.features li {
+.features-list li {
   width: calc((100% - 72px) / 4);
-}
-
-.features-title {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
 
 .feature-title {
@@ -34,4 +24,18 @@
   letter-spacing: 0.02em;
   color: #434455;
   text-align: left;
+}
+
+.feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 112px;
+  margin-bottom: 8px;
+
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+
+  background-color: #f4f4fd;
 }
